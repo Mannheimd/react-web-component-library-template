@@ -1,0 +1,33 @@
+{
+  "name": "react-component-library",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "concurrently \"vite build --watch\" \"vite\"",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@r2wc/react-to-web-component": "^2.0.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "tslib": "^2.8.1",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  },
+  "main": "web-components.ts"
+}

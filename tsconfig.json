@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Core build options
+    "target": "es6",
+    "outDir": "./dist",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "incremental": false,
+    "module": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+
+    // Could be environment-specific later
+    "jsx": "react-jsx", // maybe "react-jsxdev" would be useful in a dev build
+    "removeComments": true, // maybe having comments would be useful in a dev build
+
+    // Strict mode, quality, and other compilation quality options
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
