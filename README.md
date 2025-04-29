@@ -2,6 +2,8 @@
 
 This library is a baseline setup for creating React web components that can be consumed on any webpage, prioritising simplicity and developer convenience. Components are built in React and exposed using `react-to-web-component`. The components can then be added to any HTML page using their custom html tag.
 
+More on r2wc here: https://github.com/bitovi/react-to-web-component
+
 The components in this library are functionally stand-alone and don't depend on logic from the consuming app, other than properties passed to the component on initialisation. The library doesn't provide CSS though, so the consuming app is responsible for styling (unless you add css into this library).
 
 Be mindful of what packages you install. Everything, including React, is bundled into the output. The output could get excessively large, and could contain vulnerable packages that shouldn't be exposed in a browser.
